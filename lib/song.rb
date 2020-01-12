@@ -41,7 +41,7 @@ class Song
   end
 
   def self.artist_count
-    artist_count = {}
+    artists_count = {}
     @@artists.each do |artist|
       if artists_count[artist]
         artists_count[artist] += 1
